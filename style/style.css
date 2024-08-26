@@ -1,0 +1,301 @@
+/*
+===========================================================
+						FONTE
+===========================================================
+*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* 
+==========================================================
+	CSS RESET	
+	http://meyerweb.com/eric/tools/css/reset/ 
+	v2.0 | 20110126
+	License: none (public domain)
+==========================================================
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+=======================================================
+						GERAL
+=======================================================
+*/
+html {
+  font-size: calc(11px + 0.390625vw);
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  margin: 0 10vw 0 10vw;
+}
+/*
+=======================================================
+						TOPO
+=======================================================
+*/
+header {
+  margin: 2vw 4vw 0 4vw;
+}
+header nav ul {
+  display: flex;
+  justify-content: right;
+}
+header nav ul li {
+  margin: 0 10px 0 10px;
+  font-weight: bold;
+}
+header nav ul li.atual a {
+  color: #ff6464;
+}
+/*
+=======================================================
+						CONTEÚDO-WORKS
+=======================================================
+*/
+main.works section {
+  border-bottom: 1px solid;
+  padding: 4vw 0 3vw 0;
+}
+main.works section:last-child {
+  border: none;
+}
+
+main.works h1 {
+  font-size: 1.5rem;
+  margin: 4vw 0 2vw 0;
+}
+main.works section h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+main.works section p span.ano {
+  background-color: #ff6464;
+  color: white;
+  border-radius: 16px;
+  padding: 2px 8px 2px 8px;
+}
+main.works section p {
+  margin: 20px 0px 20px 0px;
+}
+/*
+=======================================================
+						CONTEÚDO-HOME PAGE
+=======================================================
+*/
+main section.banner {
+  display: flex;
+  padding: 10vw 0 5vw 0;
+}
+section.banner h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+section.banner p {
+  margin: 3vw 0 3vw 0;
+}
+section.banner button {
+  background-color: #ff6464;
+  font-size: 1rem;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  padding: 1vw;
+}
+section.rc-posts {
+  background: #d3dee2;
+  padding: 3vw 5vw 3vw 5vw;
+}
+section.rc-posts h2{
+  font-size: 1.6rem;
+}
+section.rc-posts ul {
+  display: flex;
+  margin: 1.2vw 0 0 0;
+}
+section.rc-posts ul li {
+  background: white;
+  margin: 0 1vw 0 0;
+  padding: 1.5vw 1vw 1.5vw 1vw;
+}
+section.rc-posts ul li:last-child {
+  margin: 0 0 0 0;
+}
+section.rc-posts ul li h3{
+  font-weight: bold;
+}
+section.rc-posts ul li p{
+  margin: 2vw 0 2vw 0;
+}
+section.ft-works h2 {
+  font-size: 1.6rem;
+  margin: 4vw 0 4vw 0;
+}
+section.ft-works > div {
+  display: flex;
+  margin: 1vw 0 1vw 0;
+}
+section.ft-works span {
+  background-color: black;
+  font-size: 1rem;
+  color: white;
+  border: 0;
+  border-radius: 3rem;
+  padding: 0.43rem;
+  font-weight: bold;
+  margin: 0 1vw 0 1vw;
+}
+section.ft-works div h3 {
+  font-size: 1.2rem;
+  margin: 2vw 0 2vw 0;
+  font-weight: bold;
+}
+section.ft-works p {
+  margin: 1vw 0 1vw 0;
+} 
+
+/*
+=======================================================
+						RODAPÉ
+=======================================================
+*/
+footer {
+  text-align: center;
+  font-size: 15px;
+  padding: 3vw 0 3vw;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  margin: 20px 15px 20px 15px;
+  font-size: 2rem;
+}
