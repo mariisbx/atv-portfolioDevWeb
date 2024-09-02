@@ -263,7 +263,7 @@ section.ft-works > div {
   margin: 1vw 0 1vw 0;
 }
 section.ft-works span {
-  background-color: black;
+  background-color: rgb(18, 23, 65);
   font-size: 1rem;
   color: white;
   border: 0;
@@ -278,8 +278,14 @@ section.ft-works div h3 {
   font-weight: bold;
 }
 section.ft-works p {
-  margin: 1vw 0 1vw 0;
+  margin: 3vw 0 3vw 0;
 } 
+section.ft-works p.dash {
+  color:  gray;
+}
+section.ft-works p.illustration {
+  color: gray;
+}
 
 /*
 =======================================================
